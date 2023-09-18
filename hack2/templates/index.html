@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Breakers</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <section class="section-1">
+            <h1><span class="text-shadow">VidCraft!</span></h1>
+            <h1><span class="text-shadow">Making Learning more accessable.</span></h1>
+        </section>
+
+        <section class="section-2">
+            <label for="dropdown">Select the number of slides (selecting anything except 8 will break it for
+                now):</label>
+            <form action="/generate_slides" method="POST">
+                <input class="input" type="text" placeholder="  Please enter prompt here">
+                <select id="dropdown" name="num_slides">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                </select>
+                <button class="submit" type="submit">Generate</button>
+            </form>
+        </section>
+
+        <section class="section-3">
+        </section>
+    </div>
+
+</body>
+
+</html>

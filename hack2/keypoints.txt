@@ -1,0 +1,8 @@
+Point 1: This is the first key point.;Point 2: This is the second key point.;Point 3: This is the third key point.
+Point 1: Another set of key points.;Point 2: Key point 2.;Point 3: The third key point in this set.
+Point 1: 3rd set of key points.;Point 2: Key point 2.;Point 3: The third key point in this set.
+Point 1: 4th set of key points.;Point 2: Key point 2.;Point 3: The third key point in this set.
+Point 1: 5th set of key points.;Point 2: Key point 2.;Point 3: The third key point in this set.
+Point 1: 6th set of key points.;Point 2: Key point 2.;Point 3: The third key point in this set.
+Point 1: 7th set of key points.;Point 2: Key point 2.;Point 3: The third key point in this set.
+Point 1: 8th set of key points.;Point 2: Key point 2.;Point 3: The third key point in this set.
